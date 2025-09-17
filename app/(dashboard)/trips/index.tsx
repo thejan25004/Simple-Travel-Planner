@@ -305,7 +305,7 @@ const TripsScreen = () => {
                 {/* Action Buttons */}
                 <View className="flex-row space-x-3">
                   <TouchableOpacity
-                    className="flex-1 bg-blue-500 py-3 rounded-xl flex-row items-center justify-center"
+                    className=" bg-blue-500 py-3 rounded-xl flex-row items-center justify-center w-[75%] "
                     onPress={() => router.push(`/(dashboard)/trips/${trip.id}`)}
                     style={{
                       elevation: 2,
@@ -320,7 +320,7 @@ const TripsScreen = () => {
                   </TouchableOpacity>
 
                   <TouchableOpacity
-                    className="bg-red-50 px-4 py-3 rounded-xl border border-red-200 items-center justify-center"
+                    className="bg-red-50 px-4 py-3 rounded-xl border border-red-200 items-center justify-center mx-4"
                     onPress={() => trip.id && handleDeleteTrip(trip.id)}
                   >
                     <MaterialIcons name="delete-outline" size={20} color="#EF4444" />

@@ -873,7 +873,7 @@ const Home = () => {
               <Text style={{ color: 'white', fontWeight: 'bold', fontSize: 10 }}>Plan Trip</Text>
               <Text style={{ color: 'rgba(255, 255, 255, 0.9)', fontSize: 6, marginTop: 2 }}>New adventure</Text>
             </TouchableOpacity>
-            <TouchableOpacity className="w-[30%] mr-3" activeOpacity={0.85} style={{ backgroundColor: '#0369A1', borderRadius: 18, padding: 18, shadowColor: '#0369A1', shadowOffset: { width: 0, height: 4 }, shadowOpacity: 0.2, shadowRadius: 8, elevation: 6, overflow: 'hidden', }}>
+            <TouchableOpacity className="w-[30%] mr-3"  onPress={() => router.push("/(dashboard)/trips")} activeOpacity={0.85} style={{ backgroundColor: '#0369A1', borderRadius: 18, padding: 18, shadowColor: '#0369A1', shadowOffset: { width: 0, height: 4 }, shadowOpacity: 0.2, shadowRadius: 8, elevation: 6, overflow: 'hidden', }}>
               <LinearGradient colors={['#0EA5E9', '#0369A1', '#1E40AF']} start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, borderRadius: 18, }} />
               <View style={{ position: 'absolute', bottom: -10, left: -10, width: 60, height: 60, backgroundColor: 'rgba(255, 255, 255, 0.08)', borderRadius: 30, }} />
               <View style={{ backgroundColor: 'rgba(255, 255, 255, 0.2)', width: 48, height: 48, borderRadius: 14, alignItems: 'center', justifyContent: 'center', marginBottom: 10, borderWidth: 1, borderColor: 'rgba(255, 255, 255, 0.3)', }}>
