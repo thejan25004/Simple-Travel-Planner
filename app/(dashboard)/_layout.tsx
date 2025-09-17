@@ -7,7 +7,7 @@ const tabs = [
   { label: "Home", name: "home", icon: "home" },
   { label: "Trips", name: "trips", icon: "flight-takeoff" },
   { label: "Profile", name: "profile", icon: "person" },
-  { label: "Settings", name: "settings", icon: "settings" }
+  { label: "Settings", name: "settings", icon: "settings" },
 ] as const
 
 const DashboardLayout = () => {

@@ -72,6 +72,7 @@ import { logout, changePassword } from "@/services/authService";
 
 const ProfileScreen = () => {
   const router = useRouter();
+  const [currentPassword, setCurrentPassword] = useState("");
   const [newPassword, setNewPassword] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
@@ -90,15 +91,16 @@ const ProfileScreen = () => {
   };
 
   const handleChangePassword = async () => {
-    if (!newPassword.trim()) {
-      Alert.alert("Error", "Please enter a new password");
+    if (!currentPassword.trim() || !newPassword.trim()) {
+      Alert.alert("Error", "Please enter both current and new password");
       return;
     }
     if (isLoading) return;
     setIsLoading(true);
     try {
-      await changePassword(newPassword);
+      await changePassword(currentPassword, newPassword);
       Alert.alert("Success", "Password updated successfully");
+      setCurrentPassword("");
       setNewPassword("");
     } catch (err: any) {
       console.error(err);
@@ -112,6 +114,17 @@ const ProfileScreen = () => {
     <View className="flex-1 justify-center items-center bg-gray-50 px-4">
       <Text className="text-4xl font-bold text-gray-900">Profile</Text>
       <Text className="text-gray-600 mt-2 mb-6">Manage your travel profile</Text>
+
+      {/* Current password */}
+      <TextInput
+        placeholder="Enter current password"
+        className="bg-white border border-gray-300 rounded px-4 py-3 mb-4 w-full text-gray-900"
+        secureTextEntry
+        value={currentPassword}
+        onChangeText={setCurrentPassword}
+      />
+
+      {/* New password */}
       <TextInput
         placeholder="Enter new password"
         className="bg-white border border-gray-300 rounded px-4 py-3 mb-4 w-full text-gray-900"
@@ -119,6 +132,8 @@ const ProfileScreen = () => {
         value={newPassword}
         onChangeText={setNewPassword}
       />
+
+      {/* Change Password Button */}
       <TouchableOpacity
         className="bg-green-600 p-4 rounded mb-4 w-full"
         onPress={handleChangePassword}
@@ -130,6 +145,8 @@ const ProfileScreen = () => {
           <Text className="text-center text-xl text-white">Change Password</Text>
         )}
       </TouchableOpacity>
+
+      {/* Logout Button */}
       <TouchableOpacity
         className="bg-red-500 p-4 rounded w-full"
         onPress={handleLogout}
