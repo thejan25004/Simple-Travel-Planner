@@ -724,7 +724,7 @@ const Home = () => {
             </View>
           </View>
           {/* Travel Stats Cards */}
-         <View className="flex-row justify-between mb-6 mx-0 w-[110%] -ml-5">
+         <View className="flex-row justify-between mb-6 mx-0 w-[95%] ">
             <View className="bg-white/100 backdrop-blur-sm rounded-2xl px-4 py-3 flex-1 mr-2 " style={{ shadowColor: '#000', shadowOffset: { width: 0, height: 2 }, shadowOpacity: 0.08, shadowRadius: 6, elevation: 2, borderWidth: 1, borderColor: 'rgba(255, 255, 255, 0.5)', }}>
               <View className="flex-row items-center">
                 <View className="w-8 h-8 bg-blue-100 rounded-full items-center justify-center mr-3">
@@ -732,7 +732,7 @@ const Home = () => {
                 </View>
                 <View>
                   <Text className="text-base font-bold text-gray-900">{trips.length}</Text>
-                  <Text className="text-xs text-gray-600 font-medium -ml-2 " style={{ fontSize: 7 }}>Total Trips</Text>
+                  <Text className="text-xs text-gray-600 font-medium  " style={{ fontSize: 7 }}>Total Trips</Text>
                 </View>
               </View>
             </View>
@@ -882,7 +882,7 @@ const Home = () => {
               <Text style={{ color: 'white', fontWeight: 'bold', fontSize: 10 }}>Explore Trip</Text>
               <Text style={{ color: 'rgba(255, 255, 255, 0.9)', fontSize: 6 }}>Discover</Text>
             </TouchableOpacity>
-            <TouchableOpacity className="w-[30%]" activeOpacity={0.85} style={{ backgroundColor: '#B45309', borderRadius: 18, padding: 18, shadowColor: '#B45309', shadowOffset: { width: 0, height: 4 }, shadowOpacity: 0.2, shadowRadius: 8, elevation: 6, overflow: 'hidden', }}>
+            <TouchableOpacity className="w-[30%]"  onPress={() => router.push("/(dashboard)/trips/gallery")} activeOpacity={0.85} style={{ backgroundColor: '#B45309', borderRadius: 18, padding: 18, shadowColor: '#B45309', shadowOffset: { width: 0, height: 4 }, shadowOpacity: 0.2, shadowRadius: 8, elevation: 6, overflow: 'hidden', }}>
               <LinearGradient colors={['#F59E0B', '#D97706', '#B45309']} start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, borderRadius: 18, }} />
               <View style={{ position: 'absolute', top: -15, right: -15, width: 50, height: 50, backgroundColor: 'rgba(255, 255, 255, 0.1)', borderRadius: 25, }} />
               <View style={{ position: 'absolute', bottom: -5, left: -5, width: 30, height: 30, backgroundColor: 'rgba(255, 255, 255, 0.05)', borderRadius: 15, }} />

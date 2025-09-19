@@ -190,7 +190,7 @@ const TripDetailsScreen = () => {
         {/* Banner Image */}
         <ImageBackground
           source={{ uri: plan.image || undefined }}
-          className="h-80 rounded-b-2xl overflow-hidden bg-gray-200"
+          className="h-80 rounded-b-1xl overflow-hidden bg-gray-200"
           resizeMode="cover"
         >
           <LinearGradient
@@ -290,7 +290,7 @@ const TripDetailsScreen = () => {
                 {imageUrl.trim() !== "" && (
                   <Image
                     source={{ uri: imageUrl }}
-                    className="w-full h-40 rounded-lg mb-3"
+                    className="w-full h-40 rounded-lg mb-3 "
                     resizeMode="cover"
                   />
                 )}
@@ -395,17 +395,17 @@ const TripDetailsScreen = () => {
                 {/* Action Buttons */}
                 <View className="flex-row space-x-4 mt-4">
                   <TouchableOpacity
-                    className="flex-1 bg-yellow-500 rounded-xl py-3 items-center"
+                    className="flex-1 bg-yellow-500 rounded-xl py-3 items-center mx-2"
                     onPress={() => setIsEditing(true)}
                   >
-                    <Text className="text-white font-semibold">Edit</Text>
+                    <Text className="text-white font-semibold">Edit Trips</Text>
                   </TouchableOpacity>
 
                   <TouchableOpacity
-                    className="flex-1 bg-red-500 rounded-xl py-3 items-center"
+                    className="flex-1 bg-red-500 rounded-xl py-3 items-center mx-2  "
                     onPress={handleDelete}
                   >
-                    <Text className="text-white font-semibold">Delete</Text>
+                    <Text className="text-white font-semibold ">Delete  Trips</Text>
                   </TouchableOpacity>
 
                   {plan.status !== "completed" && (
@@ -413,7 +413,7 @@ const TripDetailsScreen = () => {
                       className="flex-1 bg-blue-500 rounded-xl py-3 items-center"
                       onPress={() => changeStatus("completed")}
                     >
-                      <Text className="text-white font-semibold">Mark Completed</Text>
+                      <Text className="text-white font-semibold ml-2">Mark Status</Text>
                     </TouchableOpacity>
                   )}
                 </View>
