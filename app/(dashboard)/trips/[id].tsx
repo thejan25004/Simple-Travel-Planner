@@ -398,14 +398,14 @@ const TripDetailsScreen = () => {
                     className="flex-1 bg-yellow-500 rounded-xl py-3 items-center mx-2"
                     onPress={() => setIsEditing(true)}
                   >
-                    <Text className="text-white font-semibold">Edit Trips</Text>
+                    <Text className="text-white font-semibold text-sm ">Edit Trips</Text>
                   </TouchableOpacity>
 
                   <TouchableOpacity
                     className="flex-1 bg-red-500 rounded-xl py-3 items-center mx-2  "
                     onPress={handleDelete}
                   >
-                    <Text className="text-white font-semibold ">Delete  Trips</Text>
+                    <Text className="text-white font-semibold text-sm">Delete  Trips</Text>
                   </TouchableOpacity>
 
                   {plan.status !== "completed" && (
@@ -413,7 +413,7 @@ const TripDetailsScreen = () => {
                       className="flex-1 bg-blue-500 rounded-xl py-3 items-center"
                       onPress={() => changeStatus("completed")}
                     >
-                      <Text className="text-white font-semibold ml-2">Mark Status</Text>
+                      <Text className="text-white font-semibold ml-2 text-sm">Mark Status</Text>
                     </TouchableOpacity>
                   )}
                 </View>

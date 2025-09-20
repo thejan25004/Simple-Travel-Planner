@@ -13,6 +13,7 @@ import { useRouter } from "expo-router";
 import { getAllPlans } from "@/services/planService";
 import { Plan } from "@/types/plan";
 
+
 const { width } = Dimensions.get("window");
 
 const PopularDestinations = () => {
