@@ -213,7 +213,7 @@ const GalleryTripScreen = () => {
             <MaterialIcons name="arrow-back" size={24} color="white" />
           </TouchableOpacity>
           <View className="flex-1 ml-4">
-            <Text className="text-3xl font-bold text-white mb-1">Trip Gallery</Text>
+            <Text className="text-3xl font-bold text-white mb-1 mt-4">Trip Gallery</Text>
             <Text className="text-orange-100">Your adventure memories</Text>
           </View>
           <View className="bg-white/20 p-3 rounded-full">

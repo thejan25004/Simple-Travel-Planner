@@ -67,7 +67,7 @@ const TripsScreen = () => {
       }}>
         <View className="flex-row items-center justify-between">
           <View className="flex-1">
-            <Text className="text-3xl font-bold text-gray-900 mb-1">My Trips</Text>
+            <Text className="text-3xl font-bold text-gray-900 mb-1 mt-4">My Trips</Text>
             <Text className="text-base text-gray-600">Plan and manage your adventures</Text>
           </View>
           <View className="bg-blue-50 p-3 rounded-full">
