@@ -71,17 +71,18 @@ A cross-platform **Travel Planner Mobile Application** developed using **React N
 ## 📱 Screenshots
 
 <p align="center">
-  <img width="421" height="778" alt="Login Screen" src="https://github.com/user-attachments/assets/2e6c21d4-10d4-4160-815c-bea430afb9a4" />
-  <img width="412" height="777" alt="Sign Up Screen" src="https://github.com/user-attachments/assets/ad89b225-4b6b-47f1-8b87-514681f4bcfb" />
-  <img width="425" height="777" alt="Dashboard" src="https://github.com/user-attachments/assets/9530f28e-892a-4098-b91a-9f65f5116b12" />
-  <img width="423" height="777" alt="Trip Planning" src="https://github.com/user-attachments/assets/f19b5201-290a-4a29-8125-d634359c54b8" />
-  <img width="419" height="778" alt="Explore Trips" src="https://github.com/user-attachments/assets/eb929d59-8f6a-4aa7-97be-5e584107e9dc" />
-  <img width="424" height="779" alt="Gallery Trips" src="https://github.com/user-attachments/assets/c17b9eab-d332-447a-a947-65fbd8497c54" />
-  <img width="419" height="771" alt="Trips Page" src="https://github.com/user-attachments/assets/4f8feb7f-d58c-4902-ad20-5ad5beb3d922" />
-  <img width="424" height="772" alt="Search Trips" src="https://github.com/user-attachments/assets/2665b767-a3ea-4b6a-8277-95bf88be3581" />
-  <img width="416" height="773" alt="Notifications" src="https://github.com/user-attachments/assets/fd92af23-2ff4-4203-8f06-3f071fb5ba8b" />
-  <img width="431" height="776" alt="Profile Page" src="https://github.com/user-attachments/assets/fed1bb0d-6ad3-41fd-99a9-2c5c29af3ce1" />
+  <img src="https://github.com/user-attachments/assets/2e6c21d4-10d4-4160-815c-bea430afb9a4" alt="Login Screen" width="200" />
+  <img src="https://github.com/user-attachments/assets/ad89b225-4b6b-47f1-8b87-514681f4bcfb" alt="Sign Up Screen" width="200" />
+  <img src="https://github.com/user-attachments/assets/9530f28e-892a-4098-b91a-9f65f5116b12" alt="Dashboard" width="200" />
+  <img src="https://github.com/user-attachments/assets/f19b5201-290a-4a29-8125-d634359c54b8" alt="Trip Planning" width="200" />
+  <img src="https://github.com/user-attachments/assets/eb929d59-8f6a-4aa7-97be-5e584107e9dc" alt="Explore Trips" width="200" />
+  <img src="https://github.com/user-attachments/assets/c17b9eab-d332-447a-a947-65fbd8497c54" alt="Gallery Trips" width="200" />
+  <img src="https://github.com/user-attachments/assets/4f8feb7f-d58c-4902-ad20-5ad5beb3d922" alt="Trips Page" width="200" />
+  <img src="https://github.com/user-attachments/assets/2665b767-a3ea-4b6a-8277-95bf88be3581" alt="Search Trips" width="200" />
+  <img src="https://github.com/user-attachments/assets/fd92af23-2ff4-4203-8f06-3f071fb5ba8b" alt="Notifications" width="200" />
+  <img src="https://github.com/user-attachments/assets/fed1bb0d-6ad3-41fd-99a9-2c5c29af3ce1" alt="Profile Page" width="200" />
 </p>
+
 
 ---
 
