@@ -5,6 +5,10 @@ A cross-platform **Travel Planner Mobile Application** developed using **React N
 
 ---
 
+Youtube Video - https://youtu.be/dWhyCb51Cm0
+Android APK- https://expo.dev/artifacts/eas/kUneNuTbjvdYeRytNVGt6c.apk
+
+
 ## ✨ Features
 
 - **Authentication**
@@ -113,7 +117,7 @@ A cross-platform **Travel Planner Mobile Application** developed using **React N
 
 ## 🎥 Demo Video
 
-👉 [Watch on YouTube](https://www.youtube.com/@chamodthejan4692)
+👉 [Watch on YouTube](https://youtu.be/dWhyCb51Cm0)
 
 ---
 
