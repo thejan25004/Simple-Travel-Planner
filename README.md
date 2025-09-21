@@ -1,11 +1,4 @@
-Nice 💯 – I see you already combined **features + run guide + screenshots + build + video** into your README.
-I’ll polish it for **best GitHub view** – clean headings, spacing, proper Markdown formatting, and neat alignment of screenshots.
 
-Here’s the **final improved README.md** 👇
-
----
-
-````markdown
 # 🌍 Travel Planner App
 
 A cross-platform **Travel Planner Mobile Application** developed using **React Native Expo** and **Firebase** as part of the **ITS 2127 - Advanced Mobile Developer** final project.
