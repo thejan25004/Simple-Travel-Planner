@@ -44,6 +44,9 @@ A cross-platform **Travel Planner Mobile Application** developed using **React N
 
 ---
 
+## 📱 Screenshots
+<img width="421" height="778" alt="Screenshot 2025-09-21 at 10 56 19 AM" src="https://github.com/user-attachments/assets/87cf9c3e-2a6a-4a8a-8c45-77ab529e0ae7" />
+
 ## 🚀 How to Run
 
 1. Clone this repository  
@@ -68,8 +71,7 @@ A cross-platform **Travel Planner Mobile Application** developed using **React N
 
 ---
 
-## 📱 Screenshots
-<img width="421" height="778" alt="Screenshot 2025-09-21 at 10 56 19 AM" src="https://github.com/user-attachments/assets/87cf9c3e-2a6a-4a8a-8c45-77ab529e0ae7" />
+
 
 
 
