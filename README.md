@@ -70,7 +70,6 @@ A cross-platform **Travel Planner Mobile Application** developed using **React N
 
 ## 📱 Screenshots
 
-<p align="center">
   <img src="https://github.com/user-attachments/assets/2e6c21d4-10d4-4160-815c-bea430afb9a4" alt="Login Screen" width="200" />
   <img src="https://github.com/user-attachments/assets/ad89b225-4b6b-47f1-8b87-514681f4bcfb" alt="Sign Up Screen" width="200" />
   <img src="https://github.com/user-attachments/assets/9530f28e-892a-4098-b91a-9f65f5116b12" alt="Dashboard" width="200" />
@@ -81,7 +80,7 @@ A cross-platform **Travel Planner Mobile Application** developed using **React N
   <img src="https://github.com/user-attachments/assets/2665b767-a3ea-4b6a-8277-95bf88be3581" alt="Search Trips" width="200" />
   <img src="https://github.com/user-attachments/assets/fd92af23-2ff4-4203-8f06-3f071fb5ba8b" alt="Notifications" width="200" />
   <img src="https://github.com/user-attachments/assets/fed1bb0d-6ad3-41fd-99a9-2c5c29af3ce1" alt="Profile Page" width="200" />
-</p>
+
 
 
 ---
