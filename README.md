@@ -45,7 +45,33 @@ A cross-platform **Travel Planner Mobile Application** developed using **React N
 ---
 
 ## 📱 Screenshots
-<img width="421" height="778" alt="Screenshot 2025-09-21 at 10 56 19 AM" src="https://github.com/user-attachments/assets/87cf9c3e-2a6a-4a8a-8c45-77ab529e0ae7" />
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/87cf9c3e-2a6a-4a8a-8c45-77ab529e0ae7" alt="Screenshot 1" width="45%" />
+  <img src="https://github.com/user-attachments/assets/707cd2d1-7fc6-4231-939b-e9e8b65297ec" alt="Screenshot 2" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/18b388c9-21e6-4cc5-9271-ffa38921d366" alt="Screenshot 3" width="45%" />
+  <img src="https://github.com/user-attachments/assets/f7de41d3-861a-4934-89bc-a225a9e11da4" alt="Screenshot 4" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c3ad9d0f-8956-4905-9708-4747b292128a" alt="Screenshot 5" width="45%" />
+  <img src="https://github.com/user-attachments/assets/dfdecbbd-f9a0-442a-98de-3bf42186d47d" alt="Screenshot 6" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7e9af894-54dd-4569-a0be-b6c1745ec89b" alt="Screenshot 7" width="45%" />
+  <img src="https://github.com/user-attachments/assets/5b6c6926-075c-4b63-a041-61b0f05d9589" alt="Screenshot 8" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/86ab93b7-5cd0-4165-8ebe-b72a22a653a2" alt="Screenshot 9" width="45%" />
+  <img src="https://github.com/user-attachments/assets/59218156-7b4a-4a76-9fd0-486ad1bf9815" alt="Screenshot 10" width="45%" />
+</p>
+
+
 
 ## 🚀 How to Run
 
